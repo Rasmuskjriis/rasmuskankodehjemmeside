@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import RasmusImg from './rasmusImg';
 
 function HelloWorld() {
   return <h1 className="greeting">Hello, world</h1>
@@ -11,9 +12,7 @@ function HelloWorld() {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <HelloWorld />
-    <App />
+    <RasmusImg />
   </React.StrictMode>
 );
 
