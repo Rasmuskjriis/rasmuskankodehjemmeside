@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import PlacerholderApp from './PlaceholderApp';
 import reportWebVitals from './reportWebVitals';
+import PlacerholderApp from './PlaceholderApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <PlacerholderApp />
   </React.StrictMode>
 );
 
